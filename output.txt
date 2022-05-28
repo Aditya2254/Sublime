@@ -1,3 +1,4 @@
-Hi, i am child.
-Hi, i am Father.
-Hi, i am Father.
+Hi from student.
+Hi from person.
+Hi from person.
+Hi from person.
