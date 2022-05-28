@@ -1,4 +1,3 @@
-Hi from student.
-Hi from person.
-Hi from person.
-Hi from person.
+Hi from Student.
+Hi from Farmer.
+Hi from Student.
