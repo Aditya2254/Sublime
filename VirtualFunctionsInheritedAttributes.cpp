@@ -22,6 +22,11 @@ public:
 	}
 };
 
+class DeadStudent : public GStudent{		//when a virtual function is not redefined in the derived class, the version in the base class is used.
+public:
+
+};
+
 void whosThis(Person &p){
 	p.introduce();
 }
@@ -34,10 +39,12 @@ int main(){
     Person a;
     Student b;
     GStudent c;
+    DeadStudent d;
 
     whosThis(a);
     whosThis(b);
     whosThis(c);
+    whosThis(d);
 
     Student *s = new GStudent();		//virtual functions are inherited as virtual functions. if the derived class is used as a base class for another inheritance, the inherited virtual function will work as a virtual function of the current class.
     s->introduce();
