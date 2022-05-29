@@ -1,5 +1,4 @@
-Hi from person.
-Hi from Student.
-Hi from Graduate Student.
-Hi from Graduate Student.
-Hi from Graduate Student.
+Tiger constructor is called.
+Lion constructor is called.
+Liger constructor is called.
+Animal walks.
