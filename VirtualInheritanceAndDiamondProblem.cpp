@@ -7,6 +7,9 @@ public:
 	void walk(){
 		cout<<"Animal walks."<<endl;
 	}
+	Animal(){
+		cout<<"Animal constructor is called"<<endl;
+	}
 };
 
 class tiger :virtual public Animal{						//This is how we can use virtual inheritance to resolve ambiguity in diamond problem.
