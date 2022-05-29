@@ -2,7 +2,7 @@
 using namespace std;
 class Person{
 public:
-	virtual void introduce(){						//virtual functions will not work if it has been overridden in subclass.
+	virtual void introduce(){						//virtual functions will not execute if it has been overridden in subclass.
 		cout<<"Hi from Person."<<endl;
 	}
 };
