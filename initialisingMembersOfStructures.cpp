@@ -30,4 +30,8 @@ int main(){
         cin>>a[i].roll>>a[i].name>>a[i].marks;
         cout<<a[i].roll<<" "<<a[i].name<<" "<<a[i].marks<<endl;
     }
+
+    struct student *ptr=&s;             //pointer to a structure / structure pointer.
+
+    cout<<s.name<<endl<<ptr->name<<endl<<(*ptr).name<<endl;             
 }

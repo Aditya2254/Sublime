@@ -1,12 +1,1 @@
-12
-Ankur
-99.99
-13
-Anurag
-0
-14
-Aditya
-100
-1 megha 78.5
-2 adi 100
-3 shrawani 100
+12 shrawani 100
