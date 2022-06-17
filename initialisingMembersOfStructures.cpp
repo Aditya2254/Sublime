@@ -11,6 +11,7 @@ struct student{
 }s={12,"Ankur",99.99};					//order of members must be same.
 
 struct student s1={13,"Anurag"};		//in case of partial initialisation, anything after 1st can be left.
+
 int main(){
 #ifndef ONLINE_JUDGE
     freopen("input.txt","r",stdin);
@@ -23,7 +24,7 @@ int main(){
     s1.display();
     s2.display();
 
-    struct student a[3];
+    struct student a[3];                //array of structure objects.
 
     for(int i=0;i<3;i++){
         cin>>a[i].roll>>a[i].name>>a[i].marks;
