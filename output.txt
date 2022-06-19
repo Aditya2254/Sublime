@@ -1,1 +1,8 @@
-6
+9
+Enter 1 to sum & 0 to exit.
+11
+Enter 1 to sum & 0 to exit.
+13
+Enter 1 to sum & 0 to exit.
+15
+Enter 1 to sum & 0 to exit.
