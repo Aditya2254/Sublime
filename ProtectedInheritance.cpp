@@ -9,7 +9,7 @@ public:
 	}
 };
 
-class Student : protected Human{			//In protected inheritance, the public and protected members of the base class act as private members of the derived class.
+class Student : protected Human{			//In protected inheritance, the public and protected members of the base class act as protected members of the derived class.
 public:
 	void display(){
 		cout<<name<<endl;

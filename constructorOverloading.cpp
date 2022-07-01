@@ -25,7 +25,7 @@ public:
 		age=iAge;
 		name=iname;
 	}
-	display(){
+	void display(){
 		cout<<age<<endl<<name<<endl;
 	}
 };
