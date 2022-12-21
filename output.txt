@@ -1,3 +1,5 @@
-Aditya
-21
-All memories are released.
+Animal constructor is called
+Tiger constructor is called.
+Lion constructor is called.
+Liger constructor is called.
+Animal walks.
