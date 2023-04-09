@@ -9,7 +9,7 @@ public:
 private:
 	int m_loglevel;
 public:
-	 setLogLevel(int loglevel){
+	 void setLogLevel(int loglevel){
 	 	m_loglevel=loglevel;
 	 }
 	 void info(string s){

@@ -9,7 +9,7 @@ public:
 	}
 };
 
-class Student : public Human{			//in public inheritance, the public and protected members of the base class are available to the derived class as public members.
+class Student : public Human{			//in public inheritance, the public and protected members of the base class are available to the derived class as it is.
 public:
 	void display(){
 		cout<<"My name is: "<<name<<endl;
